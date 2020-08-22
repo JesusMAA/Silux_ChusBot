@@ -12,7 +12,7 @@ Install dependencies
 ```
 npm install
 ```
-* Telegram api-bot
+* Telegram [api-bot](https://github.com/yagop/node-telegram-bot-api)
 ```
 npm i node-telegram-bot-api
 ```
@@ -20,6 +20,15 @@ npm i node-telegram-bot-api
 * Opcional development depencencies
 ```
 npm i nodemon
+```
+### Run
+* ```--yes``` omit questions pakage.json
+```
+npm init --yes
+```
+* Add ```"dev": "nodemon src/chus_bot"``` in scripts package.json 
+```
+npm run dev
 ```
 
 ## Author
